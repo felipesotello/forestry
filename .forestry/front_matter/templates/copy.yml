@@ -1,4 +1,14 @@
 ---
 label: Copy
 hide_body: true
-fields: []
+fields:
+- name: produto
+  type: text
+  config:
+    required: false
+  label: Produto
+- name: descricao
+  type: text
+  config:
+    required: false
+  label: Descrição
